@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+}
+.mBody{
+    background-color: rgb(255, 255, 255);
+}
+.carousel-item img {
+    max-height: 700px; /* Adjust this value as needed */
+    object-fit: cover; /* This will cover the area without stretching the image */
+}
+.pricing{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+#X1{
+    height: 50vh;
+}
+#X2{
+    text-align: center;
+    width: 500px;
+    font-family: 'Signika', sans-serif;
+}
+
+#R1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+#L1{
+    margin-right: 50px;
+}
+#Celestial-Autumn-Sweater{
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+}
+#X3{
+    background-color: rgba(124, 92, 43, 0.733) !important;
+    border: none;
+    color: white;
+}
+.X4{
+    color: rgba(124, 92, 43, 0.733) !important;;
+}
+
+@media (max-width: 1000px) {
+    .pricing{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        padding: 10;
+    }
+    #R1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    #L1{
+        margin: 0;
+    }
+}
+
+
+
+
