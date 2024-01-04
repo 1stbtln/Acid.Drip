@@ -8,7 +8,7 @@ body{
     max-height: 700px; /* Adjust this value as needed */
     object-fit: cover; /* This will cover the area without stretching the image */
 }
-.pricing{
+.cDiv1{
     height: 50vh;
     display: flex;
     justify-content: center;
@@ -46,9 +46,112 @@ body{
 .X4{
     color: rgba(124, 92, 43, 0.733) !important;;
 }
+.cDiv2{
+    height: 50vh;
+    overflow: hidden;
+    margin-top: 100px;
+}
+video{
+    min-width: 100%;
+}
+#bb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    margin-right: 100px;
+}
+#aa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+#Join-our-community{
+    text-align: center;
+    width: 700px;
+    font-family: 'Signika', sans-serif;
+}
+#erkljgn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+#Sign-Up-For-Our-Newsletter{
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+}
+#input1{
+    height: 50px;
+    width: 200px;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid rgba(124, 92, 43, 0.733);
+}
+#btn1{
+    color: white;
+    background-color: rgba(124, 92, 43, 0.733);;
+    height: 50px;
+    width: 90px;
+    border-radius: 15px;
+    padding: 5px;
+    border: none;
+}
+.carousel-control-next-icon{
+    background-color: rgba(124, 92, 43, 0.733);
+    padding: 10px;
+    border-radius: 8px;
+}
+.carousel-control-prev-icon{
+    background-color: rgba(124, 92, 43, 0.733);
+    padding: 10px;
+    border-radius: 8px;
+}
+#f1{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    height: 50px;
+    width: 150px;
+    background-color: rgba(124, 92, 43, 0.733);
+    z-index: 4;
+    border-radius: 40px;
+    align-items: center;
+    padding-top: 5px;
+    border: none;
+}
+#f1H1{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Shadows Into Light', cursive;
+}
+#cText1{
+    color: white;
+    font-family: 'Signika', sans-serif;
+}
+#cText2{
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2rem;
+}
+#cText1Bgnd{
+    background-color: rgba(151, 105, 35, 0.733);
+    border-radius: 100px;
+    width: 500px;
+    padding: 20px;
+}
 
 @media (max-width: 1000px) {
-    .pricing{
+    .cDiv1{
         height: 100vh;
         display: flex;
         flex-direction: column;
@@ -66,6 +169,9 @@ body{
     #L1{
         margin: 0;
     }
+}
+button{
+    color: black;
 }
 
 
